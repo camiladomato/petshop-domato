@@ -1,0 +1,219 @@
+*{
+        margin: 0;
+        padding: 0;   
+}
+.main-contactenos{
+    height: 80vh;
+}
+body{
+    background: linear-gradient(to bottom , rgb(243, 160, 5), rgb(218, 218, 12))
+}
+
+header{
+    height: 10vh;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+nav{
+    height: 9vh; 
+    margin-top: 30px;
+}
+.logo{
+    height: 8vh;
+    margin: 20px 20px 20px 20px;
+}
+
+#img-carrito{
+    height: 7vh;   
+}
+
+.bienvenida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/img/fondoP.jpg);
+    height: 1000px;
+    color: white;
+    padding: 80px;
+    font-size: 30px;
+}
+
+.main-index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.contacto{
+    height:80vh;
+}
+
+#chat{
+    position:fixed;
+    width: 120px;
+    bottom: 55px;
+    right: 35px;
+}
+
+.carousel {
+    display: flex;
+    height: 400px;
+    width: 400px;
+}
+
+.imagenCarrousel1{
+    height:400px
+}
+
+.carousel2 {
+    height: 400px;
+    width: 400px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color:white ;
+    padding: 30px;
+}
+
+footer img{
+    height:70px;
+}
+
+
+.formulario{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;   
+}
+
+.fondo-formulario{
+    background-color: rgb(231, 228, 228);
+    padding: 2vh;  
+}
+
+label {
+    margin: 10px
+}
+
+input{
+    margin: 10px;
+}
+
+.banner-contactenos{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 60px;
+    background-image: url(/img/perros-schnauzer-1.jpg);
+    background-position: center;
+    height:10vh;
+    color: orange;
+    font-size: 200px;
+}
+
+.texto-mapa{
+   justify-content: center;
+}
+
+#articulos-jugueteria, #articulos-farmacia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carta-articulos{
+    width: 40vh;
+    flex-direction: column;
+    align-items: center; 
+    background-color:white;
+    padding:10px;
+    margin: 3vh;
+    font-size: 25px;
+    text-align: center;
+    border-radius:14px 14px 14px 14px; 
+}
+
+
+.carta-articulos img{
+    height:30vh;
+    margin: 20px;
+}
+
+.carta-articulos h3{
+    padding: 1vh;
+    height: 66px;
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    transition: all 1.5s ease;
+}
+
+.zoom:hover img{
+    transform: scale(1.5);
+}
+
+.banner-farmacia{
+    background-image: url(/img/banner-f.jpg);
+    height:14vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+}
+.banner-juguetes{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url(/img/gato-juguete.png);
+    background-position:center;
+    height: 10vh;
+    color:orange;
+    font-size: 200px;
+
+}
+.compra{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-de-compras{
+    height: 70vh;
+    width: 30vw;
+    background-color: papayawhip;
+    text-align: center;
+    padding: 2vh;
+}
+.precio-stock{
+    margin-top: 1vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#imagen-carrito{
+    height: 7vh;  
+}
+
+#oferta{
+    color:white;
+    background-color: red;
+}
+
+body{
+    font-family:"Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  }
+
