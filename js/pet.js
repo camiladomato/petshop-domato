@@ -18,14 +18,14 @@ function miPrograma(data){
     // const articulosSeleccionadosF=articulosFarmacia.filter(articulo=>articulo.seleccionado);
     // const articulosSeleccionadosJ=articulosJugueteria.filter(articulo=>articulo.seleccionado);
     
-    data.response.forEach((producto)=>{producto.seleccionado=false})
+    ///data.response.forEach((producto)=>{producto.seleccionado=false})
     
-    function dibujarTabla(identificador,array){ 
-        array.map((articulo)=>{
-            if(articulo.stock>5){
+    function dibujarTabla(identificador,array){ //cree una funcion que recibe 2 parametros
+        array.map((articulo)=>{ //1er parametro es un identificador , donque quiero imprimir.
+            if(articulo.stock>5){ //el 2do parametro array filtrado para sectorizar los articulos
                 identificador.innerHTML +=`
             <div class="carta-articulos">
-                <p class="titulo-carta">${articulo.nombre}</p>
+                <p class="titulo-carta">${articulo.nombre}</p> 
                 <div class="zoom"><img src="${articulo.imagen}" alt=""></div>
                 <div class="precio-stock">
                 <p class="negrita">Precio: $${articulo.precio}</p>
@@ -93,7 +93,7 @@ function miPrograma(data){
     //check de cada item de formulario
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
-    'use strict'
+    'use strict'//contexto extricto de script5
   
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.querySelectorAll('.needs-validation')
@@ -103,26 +103,26 @@ function miPrograma(data){
       .forEach(function (form) {
         form.addEventListener('submit', function (event) {
           if (!form.checkValidity()) {
-            event.preventDefault()
+            event.preventDefault()//veni con boostrap , evita que la pagina se resetea a cada rato
             event.stopPropagation()
           }
           
-          if(form.checkValidity()){
+          if(form.checkValidity()){//agregue para validar , evito que se resetee con prevent 
             event.preventDefault()
-            Swal.fire({
+            Swal.fire({//y agregue la alerta
                 
                 icon: 'success',
-                title: 'Tu formulario se envio con Exito',
+                title: 'Tu formulario se envio con Exito',//alerta
                 showConfirmButton: false,
                 timer: 1500
               })
             setTimeout(function(){
-                location.href ="/contactenos.html"
+                location.href ="/contactenos.html"//redirige a contactenos
 
             },1500)    
           }
 
-          form.classList.add('was-validated')
+          form.classList.add('was-validated')//venia con boostrap , averigue y carga los datos al backen
          
         }, false)
       })

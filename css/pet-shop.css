@@ -19,6 +19,7 @@ nav{
     height: 9vh; 
     margin-top: 30px;
 }
+
 .logo{
     height: 8vh;
     margin: 20px 20px 20px 20px;
@@ -35,15 +36,25 @@ nav{
     background-image: url(/img/fondoP.jpg);
     height:90vh;
     color: white;
-    padding: 80px;
-    font-size: 15px;
+    padding: 75px;
     background-size: cover;
     background-position: center;
+    font-size: 25px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btngroup{
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .bienvenida img{
     background-position: center;
 }
+
+
 
 .main-index{
     display: flex;
@@ -54,7 +65,9 @@ nav{
 
 .texto-inicio{
     font-size:30px;
-    text-align: center;  
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Poppins', sans-serif;  
 }
 
 
@@ -90,7 +103,7 @@ footer{
 }
 
 footer img{
-    height:40px;
+    height:70px;
 }
 
 
@@ -135,9 +148,10 @@ footer img{
     background-image: url(/img/contactenos4.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height:14vh;
-    color:white;
-    font-size: 200px;
+    height:24vh;
+    color:azure;
+    font-size: 300px;
+    
 }
 
 
@@ -191,14 +205,15 @@ footer img{
 
 .banner-farmacia{
     background-image: url(/img/banner-f.jpg);
-    height:14vh;
+    height:24vh;
     background-position: center;
     background-repeat: no-repeat;
     color:black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 200px;
+    font-size: 300px;
+    
 }
 .banner-juguetes{
     display:flex;
@@ -206,9 +221,10 @@ footer img{
     align-items:center;
     background-image: url(/img/perro-gato.png);
     background-position:center;
-    height: 14vh;
+    height: 24vh;
     color:black;
-    font-size: 200px;
+    font-size: 300px;
+     
 
 }
 .compra{
@@ -219,8 +235,6 @@ footer img{
 }
 
 .lista-de-compras{
-    height: 40vh;
-    width: 80vw;
     background-color: papayawhip;
     text-align: center;
     justify-content: center;
