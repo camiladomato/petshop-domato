@@ -110,7 +110,7 @@ function miPrograma(data){
           if(form.checkValidity()){
             event.preventDefault()
             Swal.fire({
-                position: 'top-end',
+                
                 icon: 'success',
                 title: 'Tu formulario se envio con Exito',
                 showConfirmButton: false,

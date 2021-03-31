@@ -83,7 +83,6 @@ nav{
 footer{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     background-color: black;
     color:white ;
     padding: 20px;
@@ -94,8 +93,10 @@ footer img{
     height:40px;
 }
 
+
+
 .main-contactenos{
-    height: 60vh;
+    height: 35rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -131,8 +132,9 @@ footer img{
     justify-content: center;
     align-items:center;
     padding: 60px;
-    background-image: url(/img/perros-schnauzer-1.jpg);
+    background-image: url(/img/contactenos4.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height:14vh;
     color:white;
     font-size: 200px;
@@ -192,7 +194,7 @@ footer img{
     height:14vh;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
+    color:black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,10 +204,10 @@ footer img{
     display:flex;
     justify-content: center;
     align-items:center;
-    background-image: url(/img/banner-juguete.jpg);
+    background-image: url(/img/perro-gato.png);
     background-position:center;
     height: 14vh;
-    color:white;
+    color:black;
     font-size: 200px;
 
 }
