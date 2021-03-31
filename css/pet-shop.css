@@ -10,8 +10,9 @@ body{
 header{
     height: 10vh;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
+    padding: 5vh;
 }
 
 
@@ -95,10 +96,10 @@ nav{
 
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     background-color: black;
     color:white ;
-    padding: 20px;
+    padding: 5vh;
     font-size: 15px;
 }
 
