@@ -2,9 +2,7 @@
         margin: 0;
         padding: 0;   
 }
-.main-contactenos{
-    height: 80vh;
-}
+
 body{
     background: linear-gradient(to bottom , rgb(243, 160, 5), rgb(218, 218, 12))
 }
@@ -15,6 +13,7 @@ header{
     justify-content:space-around;
     align-items: center;
 }
+
 
 nav{
     height: 9vh; 
@@ -34,22 +33,30 @@ nav{
     flex-direction: column;
     justify-content: center;
     background-image: url(/img/fondoP.jpg);
-    height: 1000px;
+    height:90vh;
     color: white;
     padding: 80px;
-    font-size: 30px;
+    font-size: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.bienvenida img{
+    background-position: center;
 }
 
 .main-index{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 30px;
+    align-items:center;
+    justify-content:space-around;
+    margin: 20px;   
 }
 
-.contacto{
-    height:80vh;
+.texto-inicio{
+    font-size:30px;
+    text-align: center;  
 }
+
 
 #chat{
     position:fixed;
@@ -68,7 +75,7 @@ nav{
     height:400px
 }
 
-.carousel2 {
+.carrousel2 {
     height: 400px;
     width: 400px;
 }
@@ -76,34 +83,48 @@ nav{
 footer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: black;
     color:white ;
-    padding: 30px;
+    padding: 20px;
+    font-size: 15px;
 }
 
 footer img{
-    height:70px;
+    height:40px;
 }
 
+.main-contactenos{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-contactenos h1,h3{
+    font-size: 33px;
+}
+
+
+.formulario-mapa{
+   justify-content: space-around;
+   align-items: center;
+      
+}
 
 .formulario{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;   
+    background-color: lightgray;
+    width: 80vh;
+    padding: 20px;
 }
 
-.fondo-formulario{
-    background-color: rgb(231, 228, 228);
-    padding: 2vh;  
+
+
+.animales{
+    display:flex;
+    
 }
 
-label {
-    margin: 10px
-}
-
-input{
-    margin: 10px;
-}
 
 .banner-contactenos{
     display:flex;
@@ -112,14 +133,12 @@ input{
     padding: 60px;
     background-image: url(/img/perros-schnauzer-1.jpg);
     background-position: center;
-    height:10vh;
-    color: orange;
+    height:14vh;
+    color:white;
     font-size: 200px;
 }
 
-.texto-mapa{
-   justify-content: center;
-}
+
 
 #articulos-jugueteria, #articulos-farmacia{
     display: flex;
@@ -128,7 +147,7 @@ input{
 }
 
 .carta-articulos{
-    width: 40vh;
+    width: 20vw;
     flex-direction: column;
     align-items: center; 
     background-color:white;
@@ -141,14 +160,20 @@ input{
 
 
 .carta-articulos img{
-    height:30vh;
-    margin: 20px;
+    height:25vh;
+    margin: 10px;
 }
 
-.carta-articulos h3{
-    padding: 1vh;
-    height: 66px;
+.titulo-carta{
+   font-size: 20px;
+   height: 60px;
 }
+
+
+.carta-articulos button{
+    height: 10px;
+}
+
 
 .zoom{
     overflow: hidden;
@@ -159,15 +184,15 @@ input{
 }
 
 .zoom:hover img{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .banner-farmacia{
     background-image: url(/img/banner-f.jpg);
     height:14vh;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
-    color: orange;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,33 +202,42 @@ input{
     display:flex;
     justify-content: center;
     align-items:center;
-    background-image: url(/img/gato-juguete.png);
+    background-image: url(/img/banner-juguete.jpg);
     background-position:center;
-    height: 10vh;
-    color:orange;
+    height: 14vh;
+    color:white;
     font-size: 200px;
 
 }
 .compra{
-    height: 100vh;
+    height: 70vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .lista-de-compras{
-    height: 70vh;
-    width: 30vw;
+    height: 40vh;
+    width: 80vw;
     background-color: papayawhip;
     text-align: center;
+    justify-content: center;
     padding: 2vh;
 }
+
+
+
 .precio-stock{
     margin-top: 1vh;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+
+.negrita{
+    font-weight: bold;
+}
+
 #imagen-carrito{
     height: 7vh;  
 }
@@ -211,9 +245,14 @@ input{
 #oferta{
     color:white;
     background-color: red;
+    font-size: 15px;  
 }
 
-body{
-    font-family:"Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
   }
 
+
+.descripcion{
+    font-size:12px;
+}
